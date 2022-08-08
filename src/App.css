@@ -1,0 +1,157 @@
+:root {
+  --blue: #293264;
+  --mediumblue: #243179;
+  --steelblue: #4D5B9E;
+  --darkerblue: #0d0346;
+}
+
+
+.App {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  font-size: large;
+}
+
+.App-header {
+  display: inline-flex;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+
+  color: var(--blue);
+}
+
+.start-btn {
+  width: 193px;
+  height: 52px;
+  background: var(--mediumblue);
+  border-radius: 15px;
+  color: rgb(255, 248, 248);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.start-btn:hover {
+  background: var(--steelblue);
+  font-size: 19px;
+  width: 195px;
+}
+
+.question {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.question-answers {
+  display: inline-flex;
+}
+
+.question-text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  /* identical to box height */
+  color: var(--blue);
+}
+
+.question-answer {
+  margin-right: 3%;
+  height: 2.2em;
+  min-width: 7em;
+  border: 0.8px solid #4D5B9E;
+  border-radius: 7.94239px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--blue);
+  transition: all 0.15s linear;
+}
+
+.question-answer:hover {
+  background-color: var(--darkerblue);
+  transform: scale(1.17);
+  color: whitesmoke;
+}
+
+.check-btn {
+  background: var(--darkerblue);
+  border-radius: 10px;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600px;
+  line-height: 12px;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  height: 3em;
+  width: 10em;
+  transition: all 0.15s linear;
+}
+
+.check-btn:hover {
+  transform: scale(1.11);
+  background-color: green;
+}
+
+.quiz-page {
+  padding: 10em;
+}
+
+.page-title {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 2em;
+  color: var(--blue);
+}
+
+.space-line {
+  border: 0.794239px solid #DBDEF0;
+}
+
+#game-score {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+
+  color: var(--blue);
+}
+
+#options-form {
+  margin: 2em 0em 3em 0em;
+}
+
+.selection-box {
+  margin-bottom: 0.5em;
+  display: inline-flex;
+}
+
